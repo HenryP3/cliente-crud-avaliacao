@@ -1,3 +1,16 @@
 INSERT INTO cliente (id, nome, email) VALUES
 (1, 'Mariazinha', 'mariazinha@email.com'),
-(2, 'Joãozinho', 'joaozinho@email.com');
+(2, 'Joãozinho', 'joaozinho@email.com'),
+(3, 'Jair', 'jair@email.com'),
+(4, 'Marcelo', 'marcelo@email.com'),
+(5, 'Rosana', 'rosana@email.com'),
+(6, 'Paty', 'paty@email.com'),
+(7, 'Tereza', 'tereza@email.com'),
+(8, 'Maria', 'maria@email.com'),
+(9, 'Joana', 'joana@email.com'),
+(10, 'Ricardo', 'ricardo@email.com'),
+(11, 'José', 'jose@email.com'),
+(12, 'Plinio', 'plinio@email.com'),
+(13, 'Pedro', 'pedro@email.com'),
+(14, 'Henrique', 'henrique@email.com'),
+(15, 'Adriana', 'adriana@email.com');
