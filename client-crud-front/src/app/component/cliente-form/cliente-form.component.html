@@ -1,0 +1,27 @@
+<div class="card my-5">
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit()" #clienteForm="ngForm">
+      <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" [(ngModel)]="cliente.nome"
+               class="form-control"
+               id="nome"
+               name="nome"
+               placeholder="Preencha o nome"
+               required #nome="ngModel">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" [(ngModel)]="cliente.email"
+               class="form-control"
+               id="email"
+               name="email"
+               placeholder="Preencha o e-mail"
+               required #email="ngModel">
+      </div>
+      <button type="submit" [disabled]="!clienteForm.form.valid"
+              class="btn btn-info">Salvar</button>
+    </form>
+    <app-endereco-list [idCliente]="cliente.id"></app-endereco-list>
+  </div>
+</div>
